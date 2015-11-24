@@ -5,6 +5,9 @@
     src: url('../fonts/myfont/Booklet Cordel.ttf') format('truetype');
 }
 
+a,a:hover {
+	text-decoration: none;
+}
 img{
   -webkit-user-drag: none;
   -moz-user-drag:none;
