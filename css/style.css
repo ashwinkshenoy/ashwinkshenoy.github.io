@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
+
+@font-face {
+    font-family: 'sketch';
+    src: url('../fonts/myfont/Booklet Cordel.ttf') format('truetype');
+}
+
+img{
+  -webkit-user-drag: none;
+  -moz-user-drag:none;
+  -khtml-user-drag:none;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+  background: #FF5A5A;
+  transition: background-color 1s;
+}
+
+.jumbotron {
+	background: transparent;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 0px;
+}
+
+/*section1*/
+.section1 {
+	margin-top: 25vh;
+}
+#myimg {
+	opacity: 0;
+}
+.arrow {
+	position: absolute;
+  margin-top: 10vh;
+}
+.sec1-hd,
+.sec2-hd,
+.sec3-hd {
+	color: white;
+	font-size: 50px;
+	font-weight: 300;
+}
+
+.sec1-hd2 {
+  color: #FFF;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.foo {
+  width: 60px;
+  margin-top: -5px;
+  margin-left: 10px;
+}
+
+.sec3-hd {
+	color: black;
+	font-size: 30px;
+	font-weight: 300;
+	//font-family: 'sketch';
+}
+
+.box {
+	//background: white;
+}
+
+@media screen and (min-width: 992px){
+  .col-md-myoffset-1 {
+    margin-left: 8.333333%;
+  }
+}
+.port-img{
+  width: 100%;
+}
+
+.sec5-hd {
+  color: #FFF;
+  font-size: 40px;
+  font-weight: 300;
+}
