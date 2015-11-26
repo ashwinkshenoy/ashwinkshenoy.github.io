@@ -55,10 +55,10 @@ $(document).ready(function($) {
     ]);
   //build scene
   var scene3 = new ScrollScene({
-    triggerElement: ".jumbo3",
-    triggerHook:'onCenter',
+    triggerElement: ".jumbo2",
+    triggerHook:'onLeave',
     reverse:true, 
-    offset:750,
+    offset:1650,
     duration:1500
   })
   .setTween(pinani3)
@@ -77,10 +77,10 @@ $(document).ready(function($) {
     ]);
   //build scene
   var scene4 = new ScrollScene({
-    triggerElement: ".jumbo4",
-    triggerHook:'onCenter',
+    triggerElement: ".jumbo3",
+    triggerHook:'onLeave',
     reverse:true, 
-    offset:650,
+    offset:1800,
     duration:1000
   })
   .setTween(pinani4)
@@ -100,10 +100,10 @@ $(document).ready(function($) {
     ]);
   //build scene
   var scene5 = new ScrollScene({
-    triggerElement: ".jumbo5",
-    triggerHook:'onCenter',
+    triggerElement: ".jumbo4",
+    triggerHook:'onLeave',
     reverse:true, 
-    offset:650,
+    offset:1100,
     duration:1000
   })
   .setTween(pinani5)
