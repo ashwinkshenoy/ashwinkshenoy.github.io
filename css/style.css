@@ -30,7 +30,26 @@ body {
   margin-bottom: 0px;
 }
 
+/* Dots */
+.dots {
+  position: fixed;
+  right: 20px;
+  top: 250px;
+}
+
+.dots span {
+  color: #3C3C3C;
+  display: block;
+  font-size: 20px;
+  margin-bottom: -5px;
+}
+
+.dots .active {
+  color: white;
+}
+/* Dots End */
 /*section1*/
+
 .section1 {
 	margin-top: 25vh;
 }
