@@ -39,6 +39,7 @@ body {
 
 .dots span {
   color: #3C3C3C;
+  cursor: default;
   display: block;
   font-size: 20px;
   margin-bottom: -5px;
