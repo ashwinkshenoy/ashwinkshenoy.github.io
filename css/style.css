@@ -1,11 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
 
 @font-face {
-  font-family: 'sketch';
-  src: url('../fonts/myfont/Booklet Cordel.ttf') format('truetype');
-}
-
-@font-face {
   font-family: 'craft';
   src: url('../fonts/myfont/FFF_Tusj.ttf') format('truetype');
 }
