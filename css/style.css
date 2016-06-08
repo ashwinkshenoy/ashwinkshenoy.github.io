@@ -1,8 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
 
 @font-face {
-    font-family: 'sketch';
-    src: url('../fonts/myfont/Booklet Cordel.ttf') format('truetype');
+  font-family: 'sketch';
+  src: url('../fonts/myfont/Booklet Cordel.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'craft';
+  src: url('../fonts/myfont/FFF_Tusj.ttf') format('truetype');
 }
 
 a,
@@ -88,8 +93,8 @@ body {
 	//font-family: 'sketch';
 }
 
-.box {
-	//background: white;
+.craft-txt {
+  font-family: 'craft';
 }
 
 @media screen and (min-width: 992px){

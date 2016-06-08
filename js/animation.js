@@ -51,7 +51,7 @@ $(document).ready(function($) {
   var pinani3 = new TimelineMax()
     .add([
       TweenMax.to("#body", 1,{delay:0.05,opacity:1,'background-color':'#ffffff'}),
-      TweenMax.from("#sec3-hd", 0.5,{opacity:0,top:'-200px',position:'relative'},{opacity:1}),
+      TweenMax.from("#sec3-hd", 0.5,{opacity:0,top:'200px',position:'relative'},{opacity:1}),
       TweenMax.from("#box1", 0.5,{delay:0.3,opacity:0,top:'200px',position:'relative'},{opacity:1}),
       TweenMax.from("#box2", 0.5,{delay:0.5,opacity:0,top:'200px',position:'relative'},{opacity:1}),
       TweenMax.from("#box3", 0.5,{delay:0.7,opacity:0,top:'200px',position:'relative'},{opacity:1}),
