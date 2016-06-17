@@ -96,33 +96,53 @@ $(document).ready(function($) {
   //scene4.addIndicators({zindex: 100, colorEnd: "red"});
   //scene 4 end
 
+
   //scene 5
   var pinani5 = new TimelineMax()
     .add([
-      TweenMax.to("#body", 1,{delay:0.05,opacity:1,'background-color':'#16B1EC'}),
-      TweenMax.from("#sec5-hd", 0.5,{opacity:0,top:'200px',position:'relative'},{opacity:1}),
-      TweenMax.from("#social1", 0.5,{delay:0.3,opacity:0,top:'200px',left:'-200px',position:'relative'},{opacity:1}),
-      TweenMax.from("#social2", 0.5,{delay:0.3,opacity:0,top:'200px',left:'-50px',position:'relative'},{opacity:1}),
-      TweenMax.from("#social3", 0.5,{delay:0.3,opacity:0,top:'200px',left:'50px',position:'relative'},{opacity:1}),
-      TweenMax.from("#social4", 0.5,{delay:0.3,opacity:0,top:'200px',left:'200px',position:'relative'},{opacity:1}),
+      TweenMax.to("#body", 1,{delay:0.05,opacity:1,'background-color':'#2b92ce'}),
+      TweenMax.from("#sec5-hd", 1,{opacity:0, top:'-200px',position:'relative'},{opacity:1}),
+      TweenMax.from("#robot", 1,{opacity:0, 'left':'-450px',position:'relative'},{opacity:1}),
       TweenMax.to(".d4", 0.1,{color:'#3C3C3C'}),
       TweenMax.to(".d5", 0.1,{color:'#ffffff'}),
+      // TweenMax.to("#robot", 0.8,{delay:2,opacity:0, top:'500px', position:'relative'}),
     ]);
   //build scene
-  var scene5 = new ScrollScene({
+  var scene6 = new ScrollScene({
     triggerElement: ".jumbo4",
     triggerHook:'onLeave',
     reverse:true,
-    offset:1100,
+    offset:1150,
     duration:1000
   })
   .setTween(pinani5)
   .setPin(".section5")
   .addTo(controller);
-  //scene4.addIndicators({zindex: 100, colorEnd: "red"});
-  //scene 4 end
 
 
-  // Smooth scroll for internal links
+  //scene 6
+  var pinani6 = new TimelineMax()
+    .add([
+      TweenMax.to("#body", 1,{delay:0.05, opacity:1,'background-color':'#16B1EC'}),
+      TweenMax.from("#sec6-hd", 0.5,{opacity:0,top:'-200',left:'-200px',position:'relative'},{opacity:1}),
+      TweenMax.from("#social1", 0.5,{delay:0.3,opacity:0,top:'200px',left:'-200px',position:'relative'},{opacity:1}),
+      TweenMax.from("#social2", 0.5,{delay:0.3,opacity:0,top:'200px',left:'-50px',position:'relative'},{opacity:1}),
+      TweenMax.from("#social3", 0.5,{delay:0.3,opacity:0,top:'200px',left:'50px',position:'relative'},{opacity:1}),
+      TweenMax.from("#social4", 0.5,{delay:0.3,opacity:0,top:'200px',left:'200px',position:'relative'},{opacity:1}),
+      TweenMax.to(".d5", 0.1,{color:'#3C3C3C'}),
+      TweenMax.to(".d6", 0.1,{color:'#ffffff'}),
+    ]);
+  //build scene
+  var scene6 = new ScrollScene({
+    triggerElement: ".jumbo5",
+    triggerHook:'onLeave',
+    reverse:true,
+    offset:1550,
+    duration:1000
+  })
+  .setTween(pinani6)
+  .setPin(".section6")
+  .addTo(controller);
 
-});
+
+}); // Doc.ready end
