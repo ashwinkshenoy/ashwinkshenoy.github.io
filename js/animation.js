@@ -100,7 +100,7 @@ $(document).ready(function($) {
   //scene 5
   var pinani5 = new TimelineMax()
     .add([
-      TweenMax.to("#body", 1,{delay:0.05,opacity:1,'background-color':'#2b92ce'}),
+      TweenMax.to("#body", 1,{delay:0.05,opacity:1,'background-color':'#ff7321'}),
       TweenMax.from("#sec5-hd", 1,{opacity:0, top:'-200px',position:'relative'},{opacity:1}),
       TweenMax.from("#robot", 1,{opacity:0, 'left':'-450px',position:'relative'},{opacity:1}),
       TweenMax.to(".d4", 0.1,{color:'#3C3C3C'}),
@@ -123,7 +123,7 @@ $(document).ready(function($) {
   //scene 6
   var pinani6 = new TimelineMax()
     .add([
-      TweenMax.to("#body", 1,{delay:0.05, opacity:1,'background-color':'#16B1EC'}),
+      TweenMax.to("#body", 0.5,{delay:0.05, opacity:1,'background-color':'#16B1EC'}),
       TweenMax.from("#sec6-hd", 0.5,{opacity:0,top:'-200',left:'-200px',position:'relative'},{opacity:1}),
       TweenMax.from("#social1", 0.5,{delay:0.3,opacity:0,top:'200px',left:'-200px',position:'relative'},{opacity:1}),
       TweenMax.from("#social2", 0.5,{delay:0.3,opacity:0,top:'200px',left:'-50px',position:'relative'},{opacity:1}),

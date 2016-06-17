@@ -113,6 +113,9 @@ body {
   margin-right: 30px;
 }
 
+.space {
+  margin-bottom: 250px;
+}
 /* Bot */
 #robot {
   position: relative;
