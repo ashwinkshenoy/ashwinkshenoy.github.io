@@ -1,0 +1,51 @@
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
+
+/* General */
+body {
+  font-family: 'Open Sans', sans-serif;
+  overflow-x: none;
+}
+/* General end */
+
+/* Splash Screen */
+.splash {
+  background: url('../img/app/banner1.png');
+  background-size: cover;
+  height: 100%;
+}
+
+.spash-content {
+  position: relative;
+  top: 15vh;
+}
+
+.sp-hd1 {
+  color: white;
+  font-size: 28px;
+  font-weight: 300;
+}
+
+.sp-hd2 {
+  color: white;
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: 5px;
+}
+
+.green-hd {
+  color: #67e1ff;
+}
+
+.prof-img {
+  border-radius: 50%;
+  width: 130px;
+}
+
+.social-icons a{
+  color: #fff;
+  font-size: 24px;
+  margin-right: 25px;
+  margin-left: 20px;
+}
+/* Splash Screen End */
