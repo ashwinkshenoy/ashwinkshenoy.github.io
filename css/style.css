@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
-
+/* General */
 @font-face {
   font-family: 'craft';
   src: url('../fonts/myfont/FFF_Tusj.ttf') format('truetype');
@@ -30,7 +30,7 @@ body {
   padding-bottom: 20px;
   margin-bottom: 0px;
 }
-
+/* General end */
 /* Dots */
 .dots {
   position: fixed;
@@ -54,6 +54,25 @@ body {
 
 .section1 {
 	margin-top: 25vh;
+}
+@media screen and (min-height: 768px) {
+  .dots {
+    top: 40vh;
+  }
+  .section1 {
+    margin-top: 30vh;
+  }
+
+  .jumbo3,
+  .jumbo4,
+  .jumbo5,
+  .jumbo6 {
+    margin-top: 10vh;
+  }
+
+  .jumbo6 {
+    margin-bottom: 10vh;
+  }
 }
 #myimg {
 	opacity: 0;
@@ -86,7 +105,7 @@ body {
 	color: black;
 	font-size: 30px;
 	font-weight: 300;
-	//font-family: 'sketch';
+	/* font-family: 'sketch'; */
 }
 
 .craft-txt {

@@ -55,6 +55,7 @@ $(document).ready(function($) {
       TweenMax.from("#box1", 0.5,{delay:0.3,opacity:0,top:'200px',position:'relative'},{opacity:1}),
       TweenMax.from("#box2", 0.5,{delay:0.5,opacity:0,top:'200px',position:'relative'},{opacity:1}),
       TweenMax.from("#box3", 0.5,{delay:0.7,opacity:0,top:'200px',position:'relative'},{opacity:1}),
+      TweenMax.from("#sec3-hd2", 0.5,{delay:0.9,opacity:0,top:'200px',position:'relative'},{opacity:1}),
       TweenMax.to(".d2", 0.1,{color:'#3C3C3C'}),
       TweenMax.to(".d3", 0.1,{color:'#FF5A5A'}),
     ]);
@@ -87,7 +88,7 @@ $(document).ready(function($) {
     triggerElement: ".jumbo3",
     triggerHook:'onLeave',
     reverse:true,
-    offset:1800,
+    offset:1900,
     duration:1000
   })
   .setTween(pinani4)
