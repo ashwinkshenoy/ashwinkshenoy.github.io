@@ -128,8 +128,9 @@ $(document).ready(function($) {
       TweenMax.from("#sec6-hd", 0.5,{opacity:0,top:'-200',left:'-200px',position:'relative'},{opacity:1}),
       TweenMax.from("#social1", 0.5,{delay:0.3,opacity:0,top:'200px',left:'-200px',position:'relative'},{opacity:1}),
       TweenMax.from("#social2", 0.5,{delay:0.3,opacity:0,top:'200px',left:'-50px',position:'relative'},{opacity:1}),
-      TweenMax.from("#social3", 0.5,{delay:0.3,opacity:0,top:'200px',left:'50px',position:'relative'},{opacity:1}),
-      TweenMax.from("#social4", 0.5,{delay:0.3,opacity:0,top:'200px',left:'200px',position:'relative'},{opacity:1}),
+      TweenMax.from("#social3", 0.5,{delay:0.3,opacity:0,top:'200px',left:'10px',position:'relative'},{opacity:1}),
+      TweenMax.from("#social4", 0.5,{delay:0.3,opacity:0,top:'200px',left:'50px',position:'relative'},{opacity:1}),
+      TweenMax.from("#social5", 0.5,{delay:0.3,opacity:0,top:'200px',left:'200px',position:'relative'},{opacity:1}),
       TweenMax.to(".d5", 0.1,{color:'#3C3C3C'}),
       TweenMax.to(".d6", 0.1,{color:'#ffffff'}),
     ]);
