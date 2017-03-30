@@ -125,13 +125,17 @@ $(document).ready(function($) {
   var pinani6 = new TimelineMax()
     .add([
       TweenMax.to("#body", 0.5,{delay:0.05, opacity:1,'background-color':'#16B1EC'}),
-      TweenMax.from("#sec6-hd", 0.5,{opacity:0,top:'-200',left:'-200px',position:'relative'},{opacity:1}),
-      TweenMax.from("#social1", 0.5,{delay:0.3,opacity:0,top:'200px',left:'-200px',position:'relative'},{opacity:1}),
-      TweenMax.from("#social2", 0.5,{delay:0.3,opacity:0,top:'200px',left:'-50px',position:'relative'},{opacity:1}),
-      TweenMax.from("#social3", 0.5,{delay:0.3,opacity:0,top:'200px',left:'10px',position:'relative'},{opacity:1}),
-      TweenMax.from("#social4", 0.5,{delay:0.3,opacity:0,top:'200px',left:'50px',position:'relative'},{opacity:1}),
-      TweenMax.from("#social5", 0.5,{delay:0.3,opacity:0,top:'200px',left:'200px',position:'relative'},{opacity:1}),
+      TweenMax.from("#sec6-hd", 0.5,{delay:0.3,opacity:0,top:'200',position:'relative'},{opacity:1}),
+
+      TweenMax.from("#mail", 0.5,{delay:0.3,opacity:0,left:'200px',position:'relative'},{opacity:1}),
+      TweenMax.from("#fb", 0.5,{delay:0.3,opacity:0,top:'200px',left:'-200px',position:'relative'},{opacity:1}),
+      TweenMax.from("#tw", 0.5,{delay:0.3,opacity:0,top:'-200px',left:'-100px',position:'relative'},{opacity:1}),
+      TweenMax.from("#linkedin", 0.5,{delay:0.3,opacity:0,top:'-200px',left:'100px',position:'relative'},{opacity:1}),
+      TweenMax.from("#git", 0.5,{delay:0.3,opacity:0,top:'200px',left:'200px',position:'relative'},{opacity:1}),
+      TweenMax.from("#blog", 0.5,{delay:0.3,opacity:0,left:'-200px',position:'relative'},{opacity:1}),
+
       TweenMax.to(".d5", 0.1,{color:'#3C3C3C'}),
+      TweenMax.to(".d1", 0.1,{color:'#3C3C3C'}),
       TweenMax.to(".d6", 0.1,{color:'#ffffff'}),
     ]);
   //build scene
@@ -140,7 +144,7 @@ $(document).ready(function($) {
     triggerHook:'onLeave',
     reverse:true,
     offset:1550,
-    duration:1000
+    duration:1500
   })
   .setTween(pinani6)
   .setPin(".section6")
