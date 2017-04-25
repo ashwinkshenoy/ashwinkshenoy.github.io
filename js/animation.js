@@ -1,5 +1,11 @@
 
 $(document).ready(function($) {
+  console.log('---------------------------------------------------------------------------');
+  console.log('STOP!');
+  console.log('Looks like your digging under the hood. Would you like to hire me or meet up for a cup of coffee!');
+  console.log('Send a mail at ashwinkshenoy@gmail.com and I\'ll get back to you. :)');
+  console.log('---------------------------------------------------------------------------');
+
   //scene 1
   var pinani1 = new TimelineMax()
     .add([
@@ -77,9 +83,10 @@ $(document).ready(function($) {
   var pinani4 = new TimelineMax()
     .add([
       TweenMax.to("#body", 1,{delay:0.05,opacity:1,'background-color':'#ffffff'}),
-      TweenMax.from("#sec4-hd", 0.5,{opacity:0,top:'200px',position:'relative'},{opacity:1}),
-      TweenMax.from("#ce1", 0.5,{opacity:0,left:'-200px',position:'relative'},{opacity:1}),
-      TweenMax.from("#ce2", 0.5,{opacity:0,left:'200px',position:'relative'},{opacity:1}),
+      TweenMax.from("#sec4-hd", 0.5,{opacity:0,top:'-100px',position:'relative'},{opacity:1}),
+      TweenMax.from("#ce1", 0.5,{opacity:0,left:'-200px',top:'-200px',position:'relative'},{opacity:1}),
+      TweenMax.from("#ce2", 0.5,{opacity:0,top:'200px',position:'relative'},{opacity:1}),
+      TweenMax.from("#ce3", 0.5,{opacity:0,left:'200px',top:'-200px',position:'relative'},{opacity:1}),
       TweenMax.to(".d3", 0.1,{color:'#3C3C3C'}),
       TweenMax.to(".d4", 0.1,{color:'#FF5A5A'}),
     ]);
