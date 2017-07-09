@@ -84,9 +84,9 @@ $(document).ready(function($) {
     .add([
       TweenMax.to("#body", 1,{delay:0.05,opacity:1,'background-color':'#ffffff'}),
       TweenMax.from("#sec4-hd", 0.5,{opacity:0,top:'-100px',position:'relative'},{opacity:1}),
-      TweenMax.from("#ce1", 0.5,{opacity:0,left:'-200px',top:'-200px',position:'relative'},{opacity:1}),
-      TweenMax.from("#ce2", 0.5,{opacity:0,top:'200px',position:'relative'},{opacity:1}),
-      TweenMax.from("#ce3", 0.5,{opacity:0,left:'200px',top:'-200px',position:'relative'},{opacity:1}),
+      TweenMax.from("#ce1", 0.5,{opacity:0,left:'200px',top:'200px',position:'relative'},{opacity:1}),
+      TweenMax.from("#ce2", 0.5,{opacity:0,top:'-200px',position:'relative'},{opacity:1}),
+      TweenMax.from("#ce3", 0.5,{opacity:0,left:'-200px',top:'200px',position:'relative'},{opacity:1}),
       TweenMax.to(".d3", 0.1,{color:'#3C3C3C'}),
       TweenMax.to(".d4", 0.1,{color:'#FF5A5A'}),
     ]);
