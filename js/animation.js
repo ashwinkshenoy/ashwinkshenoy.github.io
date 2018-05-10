@@ -150,12 +150,10 @@ $(document).ready(function($) {
     triggerElement: ".jumbo5",
     triggerHook:'onLeave',
     reverse:true,
-    offset:1560,
+    offset:1580,
     duration:1500
   })
   .setTween(pinani6)
   .setPin(".section6")
   .addTo(controller);
-
-
 }); // Doc.ready end
