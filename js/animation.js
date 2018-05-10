@@ -82,11 +82,11 @@ $(document).ready(function($) {
   //scene 4
   var pinani4 = new TimelineMax()
     .add([
-      TweenMax.to("#body", 1,{delay:0.05,opacity:1,'background-color':'#ffffff'}),
-      TweenMax.from("#sec4-hd", 0.5,{opacity:0,top:'-100px',position:'relative'},{opacity:1}),
-      TweenMax.from("#ce1", 0.5,{opacity:0,left:'200px',top:'200px',position:'relative'},{opacity:1}),
-      TweenMax.from("#ce2", 0.5,{opacity:0,top:'-200px',position:'relative'},{opacity:1}),
-      TweenMax.from("#ce3", 0.5,{opacity:0,left:'-200px',top:'200px',position:'relative'},{opacity:1}),
+      TweenMax.to("#body", 1,{delay:0.05,opacity:1, 'background-color':'#ffffff'}),
+      TweenMax.from("#sec4-hd", 0.5,{opacity:0, top:'-50px', position:'relative', 'transform': 'scale(0.2)'},{opacity:1}),
+      TweenMax.from("#ce1", 0.5, { opacity: 0, left: '-50px', top: '-100px', position: 'relative', 'transform': 'scale(0.5)'},{opacity:1}),
+      TweenMax.from("#ce2", 0.5, { opacity: 0, top: '200px', position: 'relative', 'transform': 'scale(0.2)'},{opacity:1}),
+      TweenMax.from("#ce3", 0.5, { opacity: 0, left: '50px', top: '-100px', position: 'relative', 'transform': 'scale(0.5)'},{opacity:1}),
       TweenMax.to(".d3", 0.1,{color:'#3C3C3C'}),
       TweenMax.to(".d4", 0.1,{color:'#FF5A5A'}),
     ]);
@@ -110,10 +110,9 @@ $(document).ready(function($) {
     .add([
       TweenMax.to("#body", 1,{delay:0.05,opacity:1,'background-color':'#ff7321'}),
       TweenMax.from("#sec5-hd", 1,{opacity:0, top:'-200px',position:'relative'},{opacity:1}),
-      TweenMax.from("#robot", 1,{opacity:0, 'left':'-450px',position:'relative'},{opacity:1}),
+      TweenMax.from("#robot", 1,{opacity:0, 'left':'300px',position:'relative'},{opacity:1}),
       TweenMax.to(".d4", 0.1,{color:'#3C3C3C'}),
       TweenMax.to(".d5", 0.1,{color:'#ffffff'}),
-      // TweenMax.to("#robot", 0.8,{delay:2,opacity:0, top:'500px', position:'relative'}),
     ]);
   //build scene
   var scene6 = new ScrollScene({
@@ -131,7 +130,7 @@ $(document).ready(function($) {
   //scene 6
   var pinani6 = new TimelineMax()
     .add([
-      TweenMax.to("#body", 0.5,{delay:0.05, opacity:1,'background-color':'#16B1EC'}),
+      TweenMax.to("#body", 0.5, {delay:0.05, opacity:1,'background-color':'#16B1EC'}),
       TweenMax.from("#sec6-hd", 0.5,{delay:0.3,opacity:0,top:'250', left:'-20px',position:'relative'},{opacity:1}),
 
       TweenMax.from("#mail", 0.5,{delay:0.3,opacity:0,left:'200px',position:'relative'},{opacity:1}),
