@@ -104,7 +104,10 @@ body {
 	color: black;
 	font-size: 30px;
 	font-weight: 300;
-	/* font-family: 'sketch'; */
+}
+
+.sec4-hd {
+  width: 50%;
 }
 
 .craft-txt {
