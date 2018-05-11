@@ -83,7 +83,7 @@ $(document).ready(function($) {
   var pinani4 = new TimelineMax()
     .add([
       TweenMax.to("#body", 1,{delay:0.05,opacity:1, 'background-color':'#ffffff'}),
-      TweenMax.from("#sec4-hd", 0.5,{opacity:0, top:'50px', position:'relative', 'transform': 'scale(1.9)'},{opacity:1}),
+      TweenMax.from("#sec4-hd", 0.5,{opacity:0, top:'50px', position:'relative', 'transform': 'scale(1.3)'},{opacity:1}),
       TweenMax.from("#ce1", 0.5, { delay: 0.1, opacity: 0, left: '-50px', top: '-100px', position: 'relative', 'transform': 'scale(0.2)'},{opacity:1}),
       TweenMax.from("#ce2", 0.5, { delay: 0.2, opacity: 0, top: '200px', position: 'relative', 'transform': 'scale(0.2)'},{opacity:1}),
       TweenMax.from("#ce3", 0.5, { delay: 0.1, opacity: 0, left: '50px', top: '-100px', position: 'relative', 'transform': 'scale(0.2)'},{opacity:1}),
@@ -131,7 +131,7 @@ $(document).ready(function($) {
   var pinani6 = new TimelineMax()
     .add([
       TweenMax.to("#body", 0.5, {delay:0.05, opacity:1,'background-color':'#16B1EC'}),
-      TweenMax.from("#sec6-hd", 0.5,{delay:0.3,opacity:0,top:'250', left:'-20px',position:'relative'},{opacity:1}),
+      TweenMax.from("#sec6-hd", 0.5,{delay:0.3,opacity:0,top:'250',position:'relative'},{opacity:1}),
 
       TweenMax.from("#mail", 0.5,{delay:0.3,opacity:0,left:'200px',position:'relative'},{opacity:1}),
       TweenMax.from("#fb", 0.5,{delay:0.3,opacity:0,top:'200px',left:'-200px',position:'relative'},{opacity:1}),
