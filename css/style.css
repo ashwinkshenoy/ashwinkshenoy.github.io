@@ -136,6 +136,12 @@ body {
 
 .social_icon {
   margin-right: 30px;
+  /* transition: 0.1s all ease-in-out; */
+}
+
+.social_icon:hover {
+  transition: 0.2s all ease-in-out;
+  transform: scale(1.04) translateY(-8px);
 }
 
 .space {
