@@ -36,6 +36,7 @@ $(document).ready(function($) {
       TweenMax.from("#sec2-txt2", 0.5,{delay:0.3,opacity:0,top:'200px',position:'relative'},{opacity:1}),
       TweenMax.from("#sec2-txt3", 0.5,{delay:0.6,opacity:0,left:'200px',position:'relative'},{opacity:1}),
       TweenMax.from("#sec2-txt4", 0.5,{delay:0.9,opacity:0,top:'200px',position:'relative'},{opacity:1}),
+      TweenMax.from("#simple-pic", 0.5, { delay: 0.5, opacity: 0, left: '-200px'}, { opacity: 1, position: 'fixed' }),
       TweenMax.to(".d1", 0.1,{color:'#3C3C3C'}),
       TweenMax.to(".d2", 0.1,{color:'#ffffff'}),
     ]);
@@ -57,6 +58,7 @@ $(document).ready(function($) {
   var pinani3 = new TimelineMax()
     .add([
       TweenMax.to("#body", 1,{delay:0.05,opacity:1,'background-color':'#ffffff'}),
+      TweenMax.from("#hanging-pic", 0.5, {delay: 0.1, opacity:0,top:'-100px',position:'absolute'},{opacity:1}),
       TweenMax.from("#sec3-hd", 0.5,{opacity:0,top:'200px',position:'relative'},{opacity:1}),
       TweenMax.from("#box1", 0.5,{delay:0.3,opacity:0,top:'200px',position:'relative'},{opacity:1}),
       TweenMax.from("#box2", 0.5,{delay:0.5,opacity:0,top:'200px',position:'relative'},{opacity:1}),
@@ -90,10 +92,10 @@ $(document).ready(function($) {
       TweenMax.to(".d3", 0.1,{color:'#3C3C3C'}),
       TweenMax.to(".d4", 0.1,{color:'#FF5A5A'}),
     ]);
-  //build scene
-  var scene4 = new ScrollScene({
-    triggerElement: ".jumbo3",
-    triggerHook:'onLeave',
+    //build scene
+    var scene4 = new ScrollScene({
+      triggerElement: ".jumbo3",
+      triggerHook:'onLeave',
     reverse:true,
     offset:1900,
     duration:1000
@@ -103,11 +105,11 @@ $(document).ready(function($) {
   .addTo(controller);
   //scene4.addIndicators({zindex: 100, colorEnd: "red"});
   //scene 4 end
-
-
+  
+  
   //scene 5
   var pinani5 = new TimelineMax()
-    .add([
+  .add([
       TweenMax.to("#body", 1,{delay:0.05,opacity:1,'background-color':'#ff7321'}),
       TweenMax.from("#sec5-hd", 1,{opacity:0, top:'-200px',position:'relative'},{opacity:1}),
       TweenMax.from("#robot", 1,{opacity:0, 'left':'300px',position:'relative'},{opacity:1}),
@@ -115,7 +117,7 @@ $(document).ready(function($) {
       TweenMax.to(".d5", 0.1,{color:'#ffffff'}),
     ]);
   //build scene
-  var scene6 = new ScrollScene({
+  var scene5 = new ScrollScene({
     triggerElement: ".jumbo4",
     triggerHook:'onLeave',
     reverse:true,
@@ -140,6 +142,7 @@ $(document).ready(function($) {
       TweenMax.from("#git", 0.5,{delay:0.3,opacity:0,top:'-200px',left:'100px',position:'relative'},{opacity:1}),
       TweenMax.from("#cp", 0.5,{delay:0.3,opacity:0,top:'200px',left:'200px',position:'relative'},{opacity:1}),
       TweenMax.from("#blog", 0.5,{delay:0.3,opacity:0,left:'-200px',position:'relative'},{opacity:1}),
+      TweenMax.from("#contact-pic", 0.5,{delay:0.3,opacity:0,left:'-200px',position:'fixed'},{opacity:1}),
 
       TweenMax.to(".d5", 0.1,{color:'#3C3C3C'}),
       TweenMax.to(".d1", 0.1,{color:'#3C3C3C'}),
@@ -150,7 +153,7 @@ $(document).ready(function($) {
     triggerElement: ".jumbo5",
     triggerHook:'onLeave',
     reverse:true,
-    offset:1580,
+    offset:1500,
     duration:1500
   })
   .setTween(pinani6)
