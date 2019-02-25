@@ -1,31 +1,38 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400');
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+
 /* General */
-@font-face {
-  font-family: 'craft';
-  src: url('../fonts/myfont/FFF_Tusj.ttf') format('truetype');
-}
+/* @font-face {
+  font-family: "craft";
+  src: url("../fonts/myfont/FFF_Tusj.ttf") format("truetype");
+} */
 
 a,
 a:hover,
 a:focus,
 a:active {
-	text-decoration: none;
+  text-decoration: none;
 }
-img{
+
+img {
   -webkit-user-drag: none;
-  -moz-user-drag:none;
-  -khtml-user-drag:none;
+  -moz-user-drag: none;
+  -khtml-user-drag: none;
+}
+
+.ma-auto {
+  margin: 0 auto;
 }
 
 body {
-	font-family: 'Open Sans', sans-serif;
-  background: #FF5A5A;
+  font-family: 'Quicksand', sans-serif;
+  background: #ff5a5a;
   overflow-x: hidden;
   transition: background-color 1s;
 }
 
 .jumbotron {
-	background: transparent;
+  background: transparent;
   padding-top: 20px;
   padding-bottom: 20px;
   margin-bottom: 0px;
@@ -39,11 +46,11 @@ body {
 }
 
 .dots span {
-  color: #3C3C3C;
+  color: #3c3c3c;
   cursor: default;
   display: block;
-  font-size: 20px;
-  margin-bottom: -5px;
+  font-size: 30px;
+  margin-bottom: -12px;
 }
 
 .dots .active {
@@ -53,7 +60,15 @@ body {
 /*section1*/
 
 .section1 {
-	margin-top: 25vh;
+  margin-top: 25vh;
+}
+
+.profile-img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border: solid 3px #ffffff;
+  border-radius: 50%;
 }
 @media screen and (min-height: 768px) {
   .dots {
@@ -75,21 +90,21 @@ body {
   }
 }
 #myimg {
-	opacity: 0;
+  opacity: 0;
 }
 .arrow {
-	position: absolute;
+  position: absolute;
   margin-top: 10vh;
 }
 .sec1-hd,
 .sec2-hd {
-	color: white;
-	font-size: 50px;
-	font-weight: 300;
+  color: white;
+  font-size: 50px;
+  font-weight: 300;
 }
 
 .sec1-hd2 {
-  color: #FFF;
+  color: #fff;
   font-size: 25px;
   font-weight: 300;
 }
@@ -100,10 +115,10 @@ body {
 }
 
 .sec3-hd,
-.sec4-hd{
-	color: black;
-	font-size: 30px;
-	font-weight: 300;
+.sec4-hd {
+  color: #464646;
+  font-size: 30px;
+  font-weight: 400;
 }
 
 .sec4-hd {
@@ -111,23 +126,35 @@ body {
 }
 
 .craft-txt {
-  font-family: 'craft';
+  font-family: "craft";
+  /* font-family: 'Sacramento', cursive; */
+  font-size: 60px;
 }
 
-@media screen and (min-width: 992px){
+.cursive {
+  font-family: 'Sacramento', cursive;
+  font-size: 60px;
+}
+
+@media screen and (min-width: 992px) {
   .col-md-myoffset-1 {
     margin-left: 8.333333%;
   }
 }
-.port-img{
+
+.port-img {
   width: 100%;
+}
+
+.mt-port {
+  margin-top: 5px;
 }
 
 .sec5-hd,
 .sec6-hd {
-  color: #FFF;
+  color: #fff;
   font-size: 40px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .sec5-hd .fa-external-link {

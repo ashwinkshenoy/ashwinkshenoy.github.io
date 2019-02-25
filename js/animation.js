@@ -87,8 +87,7 @@ $(document).ready(function($) {
       TweenMax.to("#body", 1,{delay:0.05,opacity:1, 'background-color':'#ffffff'}),
       TweenMax.from("#sec4-hd", 0.5,{opacity:0, top:'50px', position:'relative', 'transform': 'scale(1.3)'},{opacity:1}),
       TweenMax.from("#ce1", 0.5, { delay: 0.1, opacity: 0, left: '-50px', top: '-100px', position: 'relative', 'transform': 'scale(0.2)'},{opacity:1}),
-      TweenMax.from("#ce2", 0.5, { delay: 0.2, opacity: 0, top: '200px', position: 'relative', 'transform': 'scale(0.2)'},{opacity:1}),
-      TweenMax.from("#ce3", 0.5, { delay: 0.1, opacity: 0, left: '50px', top: '-100px', position: 'relative', 'transform': 'scale(0.2)'},{opacity:1}),
+      TweenMax.from("#ce2", 0.5, { delay: 0.1, opacity: 0, left: '50px', top: '-100px', position: 'relative', 'transform': 'scale(0.2)'},{opacity:1}),
       TweenMax.to(".d3", 0.1,{color:'#3C3C3C'}),
       TweenMax.to(".d4", 0.1,{color:'#FF5A5A'}),
     ]);
@@ -103,7 +102,6 @@ $(document).ready(function($) {
   .setTween(pinani4)
   .setPin(".section4")
   .addTo(controller);
-  //scene4.addIndicators({zindex: 100, colorEnd: "red"});
   //scene 4 end
   
   
