@@ -13,7 +13,9 @@ $(document).ready(function($) {
       TweenMax.to("#myimg", 0.5,{delay:1, opacity:1, position:'relative'}),
       TweenMax.from(".arrow", 0.5,{delay:2,opacity:0,'margin-right':'-50px'},{opacity:1}),
       TweenMax.from(".sec1-hd2", 0.5,{delay:2.5,opacity:0,top:'200px'},{opacity:1}),
-      TweenMax.from(".foo", 0.5,{delay:2.5,opacity:0,top:'200px'},{opacity:1}),
+      TweenMax.from(".foo1", 0.5,{delay:2.5,opacity:0,top:'200px'},{opacity:1}),
+      TweenMax.from(".sec1-hd3", 0.5,{delay:3.2,opacity:0,top:'200px'},{opacity:1}),
+      TweenMax.from(".foo2", 0.5,{delay:3.5,opacity:0,top:'200px'},{opacity:1}),
       TweenMax.to(".d1", 0.1,{color:'#ffffff'}),
     ]);
   //build scene

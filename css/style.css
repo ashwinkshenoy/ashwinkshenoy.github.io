@@ -103,13 +103,26 @@ body {
   font-weight: 300;
 }
 
-.sec1-hd2 {
+.sec1-hd2,
+.sec1-hd3 {
   color: #fff;
   font-size: 25px;
   font-weight: 300;
 }
 
-.foo {
+.past {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.past img {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.foo1 {
   margin-top: -11px;
   margin-left: 10px;
 }

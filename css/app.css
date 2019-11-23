@@ -1,18 +1,20 @@
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
 
-/* General */
 body {
   font-family: 'Open Sans', sans-serif;
   overflow-x: none;
+  margin: 0;
 }
-/* General end */
 
-/* Splash Screen */
 .splash {
   background: url('../img/app/banner1.png');
   background-size: cover;
   height: 100%;
+}
+
+.center-align {
+  text-align: center;
 }
 
 .spash-content {
@@ -40,12 +42,16 @@ body {
 .prof-img {
   border-radius: 50%;
   width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border: 3px solid #ffffff;
 }
 
-.social-icons a{
+.social-icons a {
   color: #fff;
   font-size: 24px;
   margin-right: 25px;
   margin-left: 20px;
+  text-decoration: none;
 }
-/* Splash Screen End */
+
