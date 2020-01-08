@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400');
-@import url('https://fonts.googleapis.com/css?family=Sacramento');
+@import url("https://fonts.googleapis.com/css?family=Quicksand:300,400");
+@import url("https://fonts.googleapis.com/css?family=Sacramento");
 
 /* General */
 /* @font-face {
@@ -25,7 +25,7 @@ img {
 }
 
 body {
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   background: #ff5a5a;
   overflow-x: hidden;
   transition: background-color 1s;
@@ -138,6 +138,10 @@ body {
   width: 50%;
 }
 
+.aurora-logo {
+  width: 310px;
+}
+
 .craft-txt {
   font-family: "craft";
   /* font-family: 'Sacramento', cursive; */
@@ -145,7 +149,7 @@ body {
 }
 
 .cursive {
-  font-family: 'Sacramento', cursive;
+  font-family: "Sacramento", cursive;
   font-size: 60px;
 }
 
